@@ -1,0 +1,55 @@
+.review {
+    background-color: #1FE1E9;
+    height: 1080px;
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    &__main {
+        display: flex;
+        align-items: center;
+        padding-top: 238px;
+        &--speaker {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 2;
+            &__image1{
+                position: absolute;
+                top: -280px;
+            }
+            &__image2 {
+                position: absolute;
+                top: 0px;
+                left: 125px;
+            }
+        }
+        &--text {
+            flex-grow: 1;
+            color: #FFFFFF;
+            // padding-right: 143px;
+            // font-size: 20px;
+            // letter-spacing: 7.4px;
+            &__title {
+                font-size: 74px;
+                letter-spacing: 7.4px;
+                padding-bottom: 66px;
+            }
+            &__article {
+                display: flex;
+                &--test {
+                    width: 308px;
+                    font-size: 35px;
+                    letter-spacing: 3.5px;
+                    &__art {
+                        padding:24px 0;
+                    }
+                    &__para {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

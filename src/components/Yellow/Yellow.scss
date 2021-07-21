@@ -1,0 +1,89 @@
+.test1 {
+    // background-color: #FFB33F;
+    // height: 1080px;
+    // width: 100%;
+    // z-index: 0;
+    // position: absolute;
+}
+.yellow {
+    z-index: 1;
+    // background-image: url('../../assests/Image\ 4.png');
+    height: 1080px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFB33F;
+    position: relative;
+    // min-height: 100%;
+    &__header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        position: absolute;
+        width: 100%;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        margin-left: 900px;
+        z-index: 1;
+        &--title {
+            font-size: 74px;
+            letter-spacing: 7.4px;
+            color: #FFFFFF;
+            padding-bottom: 23px;
+            z-index: 1;
+        }
+        &--section {
+            font-size: 51px;
+            letter-spacing: 5.1px;
+            color: #191919;
+            z-index: 1;
+        }
+    }
+}
+.circle{
+    // z-index: 3;
+    // padding: 2em;
+    box-shadow: yellow;
+    // top: 0;
+    // left: 0;
+    // background: #FFFFFF;
+    // border-radius: 79px;
+    // background: rgba(0, 0, 0, 0);
+    // background: transparent;
+    // color: white;
+    // border: 100em yellow solid;
+
+    // background: transparent;  /* Show through the circle */
+    // padding: 2em;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // margin-top: -502em;
+    // margin-left: -502em;
+    // background: transparent;  /* Show through the circle */
+    // -moz-border-radius: 504em;
+    // border-radius: 504em;
+    // border: 500em solid rgba(0,0,0,.6); /* Make a huge border to hide the rest */
+    // opacity: 1;
+    // -webkit-transition: opacity .5s ease;
+    // -moz-transition: opacity .5s ease;
+    // transition: opacity .5s ease;
+
+}
+
+.vidu {
+    background: rgba(1, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

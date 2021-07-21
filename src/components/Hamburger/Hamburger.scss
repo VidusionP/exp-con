@@ -1,0 +1,23 @@
+.menu {
+    padding: 79px 0 0 102px;
+    display: flex;
+    align-items: center;
+    
+    &__icon{
+        width: 56px;
+    }
+    &__text{
+        padding-left: 39px;
+        color: #FFFFFF;
+        letter-spacing: 4.8px;
+        font-size: 48px;
+        font-family: Helvetica Neue, sans-serif;
+    }
+    &__text1{
+        padding-left: 39px;
+        color: #000000;
+        letter-spacing: 4.8px;
+        font-size: 48px;
+        font-family: Helvetica Neue, sans-serif;
+    }
+}

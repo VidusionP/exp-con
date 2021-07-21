@@ -1,0 +1,19 @@
+.demoButton {
+    background: #FFFFFF;
+    border-radius: 79px;
+    border: none;
+    color: #000000;
+    mix-blend-mode: screen;
+    font-size: 23px;
+    letter-spacing: 2.3px;
+    padding: 27px 100px;
+    width: 338px;
+    margin-top: 47px;
+    &:hover {
+        background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+    // border-radius: 79px;
+    // border: none;
+    color: #FFFFFF;
+    mix-blend-mode: unset;
+    }
+}

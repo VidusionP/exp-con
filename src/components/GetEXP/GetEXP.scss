@@ -1,0 +1,19 @@
+.exp {
+    background-color: black;
+    height: 814px;
+    &__section {
+        display: flex;
+        padding: 212px 189px 0 172px;
+        &--text {
+            font-size: 51px;
+            letter-spacing: 5.1px;
+            color: #FFFFFF;
+            padding-right: 258px;
+            &__title {
+                font-size: 74px;
+                letter-spacing: 7.4px;
+                color: #D34848;
+            }
+        }
+    }
+}

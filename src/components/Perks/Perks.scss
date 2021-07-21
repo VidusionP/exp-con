@@ -1,0 +1,54 @@
+.perks {
+    background-color: #191919;
+    height: 1229px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__main {
+        &--title {
+            color: #FFFFFF;
+            font-size: 74px;
+            letter-spacing: 7.4px;
+            padding-left: 174px;
+            padding-top: 202px;
+            margin: 0;
+        }
+        &--article {
+            display: flex;
+            padding-top: 100px;
+            padding-left: 188px;
+            &__sectionR {
+                color: #D34848;
+                width: 433px;
+                font-size: 51px;
+                letter-spacing: 5.1px;
+                margin-right: 176px;
+                &--nor {
+                    font-size: 35px;
+                    letter-spacing: 3.5px;
+                    color: #FFFFFF;
+                    padding-top: 28px;
+                }
+                &--nor1 {
+                    letter-spacing: 0;
+                    padding-bottom: 10px;
+                }
+            }
+            &__sectionB {
+                color: #1FE1E9;
+                width: 433px;
+                font-size: 51px;
+                letter-spacing: 5.1px;
+                margin-right: 176px;
+            }
+            &__sectionY {
+                color: #FFB33F;
+                width: 433px;
+                font-size: 51px;
+                letter-spacing: 5.1px;
+            }
+        }
+    }
+}

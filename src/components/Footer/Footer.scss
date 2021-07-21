@@ -1,0 +1,37 @@
+.footer {
+    background-color: #5E33D1;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: content-box;
+    color: #FFFFFF;
+    opacity: 1;
+    &__email {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 139px;
+        display: flex;
+        font-size: 35px;
+        align-items: center;
+        letter-spacing: 3.5px;
+        &--icon {
+            width: 37px;
+            height: 29px;
+            padding-right: 26.34px;
+        }
+    }
+    &__text {
+        text-align: center;
+        &--title {
+            margin-bottom: 45px;
+            font-size: 48px;
+            letter-spacing: 4.8px;
+        }
+        &--sub {
+            font-size: 24px;
+            letter-spacing: 2.4px;
+        }
+    }
+}

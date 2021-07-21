@@ -1,0 +1,38 @@
+.red {
+    background-color: #D34848 ;
+    height: 1080px;
+    position: relative;
+    
+    &__main {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        &--section {
+            padding-left: 184px;
+        }
+        &--title {
+            font-size: 74px;
+            letter-spacing: 7.4px;
+            color: #FFFFFF;
+        }
+        &--text {
+            font-size: 51px;
+            letter-spacing: 5.1px;
+        }
+        &--speaker {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            &__image1 {
+                height: fit-content;
+                margin-bottom: 200px;
+            }
+            &__image2 {
+                height: fit-content;
+                margin-top: 200px;
+            }
+        }
+    }
+}

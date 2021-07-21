@@ -1,0 +1,126 @@
+.prices {
+    &__main {
+        background-color: #191919;
+        height: 1890px;
+        color: #FFFFFF;
+        &--section {
+            padding-left: 183px;
+            &__header {
+                padding-bottom: 204px;
+                font-size: 51px;
+                letter-spacing: 5.1px;
+                &--title {
+                    margin: 156px 0 38px 0;
+                    font-size: 74px;
+                    letter-spacing: 7.4px;
+                }
+            }
+            &__subs {
+                display: flex;
+                &--bas {
+                    padding-right: 229px;
+                    &__info {
+                        color: #D24848;
+                        font-size: 134px;
+                        letter-spacing: 13.4px;
+                        padding-bottom: 42px;
+                        &--title {
+                            font-size: 42px;
+                            letter-spacing: 4.2px;
+                        }
+                        &--dash {
+                            letter-spacing: 0;
+                            font-size: 1rem;
+                        }
+                        &--len {
+                            font-size: 47px;
+                            letter-spacing: 4.7px;
+                            padding-top: 20.5px;
+                        }
+                    }
+                    &__feat {
+                        font-size: 47px;
+                        letter-spacing: 4.7px;
+                    }
+                    &__button {
+                        width: 335px;
+                        height: 84px;
+                        border-radius: 100px;
+                        border: none;
+                        font-size: 24px;
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        background-color: #D24848;
+                        margin-top: 38px;
+                    }
+                }
+                &--adv {
+                    padding-right: 229px;
+                    &__info {
+                        color: #FFB33F;
+                        font-size: 135px;
+                        letter-spacing: 13.5px;
+                        padding-bottom: 42px;
+                    }
+                    &__button {
+                        width: 335px;
+                        height: 84px;
+                        border-radius: 100px;
+                        border: none;
+                        font-size: 24px;
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        background-color: #FFB33F;
+                        margin-top: 38px;
+                    }
+                }
+                &--pro {
+                    &__info {
+                        color: #1FE1E9;
+                        font-size: 135px;
+                        letter-spacing: 13.5px;
+                        padding-bottom: 42px;
+                    }
+                    &__button {
+                        width: 335px;
+                        height: 84px;
+                        border-radius: 100px;
+                        border: none;
+                        font-size: 24px;
+                        letter-spacing: 2.4px;
+                        color: #FFFFFF;
+                        background-color: #1FE1E9;
+                        margin-top: 38px;
+                    }
+                }
+            }
+        }
+    }
+    &__perks {
+        height: 967px;
+        background-color: #D34848;
+        color: #FFFFFF;
+        &--section {
+            padding-left: 215px;
+            &__title {
+                font-size: 74px;
+                letter-spacing: 7.4px;
+                margin-top: 99px;
+            }
+            &__box {
+                display: flex;
+                &--info {
+                    padding-right: 137px;
+                    letter-spacing: 5.1px;
+                    font-size: 51px;
+                    &__text {
+                        font-size: 35px;
+                        color: #0B0B0B;
+                        letter-spacing: 3.5px;
+                        padding-top: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
